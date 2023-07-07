@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 header{
     background-color: #1D3747;
     color:antiquewhite;
@@ -45,6 +49,7 @@ h2{
 }
 h3{
     padding-top: 10px;
+    margin-top: 0px;
     text-align: center;
     color: #FF4655;
     font-family: comic;
