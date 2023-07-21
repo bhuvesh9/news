@@ -1,0 +1,83 @@
+*{
+    max-width: 900px;
+    margin: auto;
+}
+
+.left-title{
+   margin-top: 30px;
+   font-family: 'Mukta Mahee', sans-serif;
+   font-size: 17px;
+   color: #d6dbdfaf;
+   text-align: right;
+}
+i{
+    padding-right: 1rem;
+}
+h3,p{
+    color: #21638f;
+}
+
+.me{
+    font-size: 20px;
+}
+
+.first {
+    height: auto;
+    width: auto;
+    background-color:  #34495E;
+  }
+  
+.image{
+    margin: 10px 30px 10px 10px;
+    width:160;
+    height:150;
+    border-radius:  50%;
+    border: 2px solid #1B2631;
+}
+
+.row2{
+    background-color:  #D6DBDF;
+    padding: 25px;
+    font-family: 'PT Serif', serif;
+}
+
+table,td,th{
+    border: 1px solid black;
+    text-align: center;
+    padding: 7px;
+}
+table{
+    margin-left: 4%;
+    box-sizing: border-box;
+}
+
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+.fa{
+    text-align: center;
+    padding: 7px;
+  
+}
+.fa-github {
+    border-radius: 50%;
+    background-color:white;
+    color: #F7490B;
+    box-shadow: 1px 4px 2px 2px #AEAEAE;
+  
+}
+.fa-linkedin{
+    border-radius: 50%;
+    background-color:white;
+    box-shadow: 1px 4px 2px 2px #AEAEAE;
+}
+
+
+
+
+
+
+
