@@ -1,0 +1,40 @@
+.left{
+    float: left;
+    background-color: gainsboro;
+    display: grid;
+    place-content: center;
+}
+.img12, .img23{
+    border-radius:100px;
+    text-align: center;
+}
+.img1, .img2{
+    border-radius:100px;
+    text-align: center;
+}
+.img1{
+    margin-left: -150px;
+}
+.img2{
+    margin-left: 110px;
+    margin-top: -110px;
+}
+
+.right{
+    width: 50%;
+    height: 100vh;
+    float: right;
+    background-color: turquoise;
+    display: grid;
+    place-content: center;
+}
+.login{
+    background-color: blueviolet;
+    width: 350px;
+    height: 200px;
+}
+.form-group{
+    size: 70% \;
+    height: 70px;
+
+}
