@@ -1,0 +1,125 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Element Gaming</title>
+    <link rel="icon" type="image/x-icon" href="favicon-16x16.png">
+    <style>
+        body{
+            background-image: url('00.JPG');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        .icon-bar {
+            width: 100%;
+            background-color: #555;
+            overflow: auto;
+            height:50px;
+        }
+
+        .icon-bar a {
+            float: left;
+            width: 33%;
+            text-align: center;
+            padding: 12px 0;
+            transition: all 0.3s ease;
+            color: white;
+            font-size: 23px;
+        }
+
+        .icon-bar a:hover {
+            background-color: #000;
+        }
+
+        .active {
+            background-color: #EDA400;
+        }
+
+        body {
+            background-color: #080806;
+        }
+        .row {
+            border: 5px solid #080806;
+            border-radius: 5px;
+
+        }
+
+        .text {
+            border-radius: 10px;
+            position: absolute;
+            bottom: 400px;
+            right: 30px;
+            background-color: #1B1B1B;
+            color: #D6220E;
+            padding-left: 15px;
+            padding-right: 15px;
+            height: 150px;
+            width: 400px;
+        }
+
+        .container {
+            position: relative;
+            top: 100px;
+            width: 300px;
+            
+        }
+
+        .image {
+            opacity: 1;
+            display: block;
+            width: 300px;
+            height: 275px;
+            transition: .5s ease;
+            backface-visibility: hidden;
+        }
+
+        .middle {
+            transition: .5s ease;
+            opacity: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            text-align: center;
+        }
+
+        .container:hover .image {
+            opacity: 0.5;
+        }
+
+        .container:hover .middle {
+            opacity: 0.7;
+        }
+
+        .text {
+            background-color: #E13034;
+            color: white;
+            text-align: center;
+            font-size: 22px;
+            top: -135px;
+            left: -150px;
+            padding: 16px 32px;
+            height: 240px;
+            width: 235px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="icon-bar">
+        <a class="active" href="gaming.htm">Home<i class="fa fa-home"></i></a>
+        <a href="gaming2.htm"><i class="fa fa-search">About Us</i></a>
+        <a href="gaming3.htm"><i class="fa fa-envelope">Contact</i></a>
+    </div>
+    <div class="container">
+        <img src="11.jpg" alt="Avatar" class="image">
+                <div class="middle">
+                  <div class="text">ELEMENT_X<br>19 years old<br>Professional E-Sports palyer.</div>
+                </div>
+    </div>
+</body>
+
+</html>
